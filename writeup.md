@@ -12,9 +12,9 @@ My pipeline consisted of the following steps:
 
 2) Then, using a canny edge detector with a low threshold of 100 and a high threshold of 200, I detected the edges in the image.
 
-3) After applying the Canny edge detector, using the cv2.polylines functions I defined a quadrilateral to select the region of my interest, which in this case were the lane boundaries within which the vehicle is driving.
+3) After applying the Canny edge detector, using the cv2.polylines function I defined a quadrilateral to select the region of my interest, which in this case were the lane boundaries within which the vehicle is driving.
 
-4) Then, I applied the Hough transform on the image to identify the lane line segments are tuning the parameters.
+4) Then, I applied the Hough transform on the image to identify the lane line segments after tuning the parameters.
 
 Example of the pipeline working on the image - 'solidWhiteCurve' is shown below:
 
